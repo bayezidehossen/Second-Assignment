@@ -239,8 +239,49 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 }
 
 
+                                       /* stories part */
 
-                                  /* responsive part */
+.stories{
+    max-width:90%;
+    margin:  auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.image1{
+    height: 550px;
+    width: 300px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: white;
+} 
+.image1 img{
+    height: 66%;
+    width: 300px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+   
+}
+.image1title{
+   padding: 20px;
+   color:rgb(0, 0, 0);
+}
+.image1content{
+    color: rgb(102, 102, 102);
+    padding: 10px 10px 10px 20px;
+    text-align: start;
+    font-size: 15px
+}
+.image4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+                                        /* responsive part */
+
 
 @media screen and (max-width: 550px){
     .navbar, .banner{
