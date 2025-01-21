@@ -350,6 +350,78 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 
 
 
+                                        /* footer part */
+
+footer{
+    margin-top:-50px;
+    background-color: rgb(1, 172, 253);
+}
+.bag{
+    display: flex;
+}
+.baglogo{
+   height: 80px;
+   width: 50px;
+}
+.bagtitle{
+    width: 80px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
+    color:rgb(255, 255, 255);
+    margin-left: 10px;
+}
+.footerpart{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 65px;
+}
+.education{
+    height: 100%;
+    width: 50%;
+    margin-left:30px;
+}
+.educationcontent{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width:60%;
+    margin-top: 40px;
+    color:rgba(255, 255, 255, 0.62);
+}
+.alllinks{
+    margin-right: 130px;
+    margin-top: 10px
+}
+.aboutschool{
+    color:white;
+    margin-left: -15px;
+    font-size: 25px;
+}
+.alllinks ul li{
+    list-style-type: none;
+    margin-top: 16px;
+    margin-left: -15px;
+}
+.alllinks ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.icons{
+    margin-right: 50px;
+    margin-top: 5px;
+}
+.keep{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.allimage img{
+   width: 30px;
+   height: 30px;
+   margin-right: 5px;
+}
 
 
                                         /* responsive part */
@@ -417,4 +489,28 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     margin: 0 auto;
     margin-left: -45px;
 }
+
+
+                                 /* footer part */
+
+footer{
+    width: 100%;
+}
+.footerpart{
+    display: grid;
+}.educationcontent{
+    width: 330px;
+}
+.alllinks{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:20px;
+}
+.alllinks ul li {
+ margin-left: -70px;
+}
+.icons{
+   margin-left: 30px;
+}
+
 }
