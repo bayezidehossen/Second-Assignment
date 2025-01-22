@@ -19,6 +19,12 @@ main{
     display: flex;
     justify-content: space-around;
 }
+.three{
+   visibility: hidden;
+}
+.three3{
+    visibility: hidden;
+}
 .school{
     font-weight: bold;
     font-size: 15px;
@@ -435,9 +441,20 @@ footer{
         width: 100%;
         margin: auto;
     }
-    /* .navlinks, .button, h2{
-        visibility: hidden;
-    } */
+    .three{ 
+        visibility: visible;
+        margin-top: 30px;
+        margin-left: 200px;
+    }
+    .three3{
+        visibility: visible;
+        border: 0.5px solid rgb(254, 163, 1);
+        margin-top:-107px;
+    }
+    
+     .navlinks, .button, h2{
+        visibility:hidden;
+    } 
 
     .banner{
         display: flex;
@@ -498,7 +515,11 @@ footer{
 }
 .footerpart{
     display: grid;
-}.educationcontent{
+} 
+.bag h2{
+     visibility: visible;
+}
+.educationcontent{
     width: 330px;
 }
 .alllinks{
@@ -511,6 +532,10 @@ footer{
 }
 .icons{
    margin-left: 30px;
+   margin-top: 15px;
+}
+.keep{
+    visibility: visible;
 }
 
 }
