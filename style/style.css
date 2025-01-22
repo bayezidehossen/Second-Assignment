@@ -366,8 +366,8 @@ footer{
     display: flex;
 }
 .baglogo{
-   height: 80px;
-   width: 50px;
+   height: 90px;
+   width: 70px;
 }
 .bagtitle{
     width: 80px;
@@ -521,6 +521,8 @@ footer{
 }
 .educationcontent{
     width: 330px;
+    margin-top:12px;
+    margin-left: 5px;
 }
 .alllinks{
     text-align: center;
